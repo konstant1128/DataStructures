@@ -72,6 +72,7 @@ void run_test(const std::vector<double>& A, const std::vector<double>& B,
 }
 
 int main() {
+    std::cout<<"Савченко Константин Олегович 090304-РПИа-о24"<<endl;
     std::vector<double> A(N * N);
     std::vector<double> B(N * N);
 
