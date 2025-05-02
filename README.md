@@ -7,3 +7,24 @@
 - Оптимизтированный блочный алгоритм - 8.42 GFlops
 - BLAS dgemm - 24.75 GFlops<br/>
 запуск программы, написанной в ходе выполнения второй лабораторной работы, происходил на на устройстве с процессором AMD Ryzen 5 7520U и операционной системой Windows 11 Home
+
+-Лабораторная работа 3:
+Был реализован стек в соответствии с методами, указанными в задании<br/>
+В результате работы программы получены следущие результаты производительности реализаций:<br/>
+StackArrayperformance:<br/>
+push: 26718ms<br/>
+pop: 0ms<br/>
+total: 26719ms<br/>
+(100000 operations each)<br/>
+
+StackLinkedListperformance:<br/>
+push: 7ms<br/>
+pop: 4ms<br/>
+total: 11ms<br/>
+(100000 operations each)<br/>
+
+StackSTLperformance:<br/>
+push: 3ms<br/>
+pop: 4ms<br/>
+total: 7ms<br/>
+(100000 operations each)<br/>
