@@ -10,24 +10,3 @@
 
 -Лабораторная работа 3:<br/>
 
--Был реализован стек в соответствии с методами, указанными в задании<br/>
-
--В результате работы программы получены следущие результаты производительности реализаций:<br/>
-
-StackArrayperformance:<br/>
-push: 26718ms<br/>
-pop: 0ms<br/>
-total: 26719ms<br/>
-(100000 operations each)<br/>
-
-StackLinkedListperformance:<br/>
-push: 7ms<br/>
-pop: 4ms<br/>
-total: 11ms<br/>
-(100000 operations each)<br/>
-
-StackSTLperformance:<br/>
-push: 3ms<br/>
-pop: 4ms<br/>
-total: 7ms<br/>
-(100000 operations each)<br/>
