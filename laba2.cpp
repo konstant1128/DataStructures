@@ -4,6 +4,7 @@
 #include <chrono>
 #include <fstream>
 #include <cblas.h>
+#include <algorithm>
 
 const int N = 2048;
 const double complexity = 2.0 * N * N * N; // 2n^3 operations
