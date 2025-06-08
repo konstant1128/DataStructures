@@ -27,14 +27,14 @@ def find_anagrams(input_word, dictionary):
 
 start_time = time.time()
 dictionary = load_dictionary("nouns.txt")
-input_word = input("Введите ваше слово:: ")
+input_word = input("Введите ваше слово: ")
 before_anagram_time = time.time()
 anagrams = find_anagrams(input_word, dictionary)
 after_anagram_time = time.time()
 print(anagrams)
 
 end_time = time.time()
-print("\n--- Время выполнения ---")
-print(f"Загрузка словаря: {before_anagram_time - start_time:.4f} секунд")
-print(f"Поиск анаграмм: {after_anagram_time - before_anagram_time:.4f} секунд")
+print(f"Время загрузки словаря: {before_anagram_time - start_time:.4f} секунд")
+print(f"Время поиска анаграмм: {after_anagram_time - before_anagram_time:.4f} секунд")
 print(f"Общее время: {end_time - start_time:.4f} секунд")
+input("Нажмите Enter для выхода.")
